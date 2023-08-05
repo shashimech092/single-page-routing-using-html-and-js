@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Routing Example</title>
+  <style>
+    .page {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#" onclick="navigateTo('home')">Home</a>
+    <a href="#" onclick="navigateTo('about')">About</a>
+    <a href="#" onclick="navigateTo('contact')">Contact</a>
+  </nav>
+
+  <div id="home" class="page">
+    <h1>Home Page</h1>
+    <p>Welcome to the Home Page.</p>
+  </div>
+
+  <div id="about" class="page">
+    <h1>About Page</h1>
+    <p>This is the About Page.</p>
+  </div>
+
+  <div id="contact" class="page">
+    <h1>Contact Page</h1>
+    <p>Contact us here.</p>
+  </div>
+
+  
+</body>
+<script src="./script.js"></script>
+</html>
